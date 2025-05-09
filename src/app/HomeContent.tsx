@@ -314,7 +314,7 @@ export default function HomeContent({
               applications, and get AI-powered insights—all in one place.
             </p>
             {!isSignedIn ? (
-              <Link href="/job-tracker">
+              <Link href="/sign-up">
                 <Button
                   size="lg"
                   className="bg-indigo-600 hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600"
@@ -323,7 +323,7 @@ export default function HomeContent({
                 </Button>
               </Link>
             ) : (
-              <Link href="/sign-up">
+              <Link href="/audit">
                 <Button
                   size="lg"
                   className="bg-indigo-600 hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600"
